@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 10%, rgba(80, 157, 24, 1) 50%, rgba(0, 212, 255, 1) 100%);
+}
+
+.container {
+    background: white;
+}
+
+header .logo {
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    margin-top: -290px;
+    border-radius: 51%;
+}
+
+h1 {
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    -ms-filter: "FlipV";
+    filter: FlipV;
+    color: white;
+    position: absolute;
+    top: 180px;
+    margin-left: 50%;
+}
+
+.texto {
+    font-size: 39px;
+    position: absolute;
+    color: black;
+    margin-left: 50%;
+    margin-top: -52px;
+}
+
+h2 {
+    color: black;
+    margin-left: 290px;
+}
+
+#imagenBanner .logoBanner {
+    position: relative;
+    left: 470px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+#im1 img {
+    object-fit: cover;
+    box-shadow: 5px 5px;
+    width: 250px;
+    height: 250px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: -50px;
+    top: 310px;
+    left: 172px;
+    right: 0;
+    height: 42%;
+    width: 70%;
+    opacity: 0;
+    transition: 2s ease;
+    background-color: #ccc;
+}
+
+#im1:hover .overlay {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.texto1 {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 95%;
+}
+
+#im2 img {
+    box-shadow: 5px 5px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#im3 img {
+    object-fit: cover;
+    box-shadow: 5px 5px;
+    width: 250px;
+    height: 250px;
+}
+
+#im4 img {
+    object-fit: cover;
+    box-shadow: 5px 5px;
+    width: 250px;
+    height: 250px;
+}
+
+header img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 1105px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.col-12 img {
+    object-fit: cover;
+    width: 1110px;
+    height: 260px;
+}
+
+#banner1 img {
+    object-fit: cover;
+    margin-top: 20px;
+    box-shadow: 5px 5px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+#banner2 img {
+    object-fit: cover;
+    margin-top: 20px;
+    box-shadow: 5px 5px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+#banner3 img {
+    object-fit: cover;
+    margin-top: 20px;
+    box-shadow: 5px 5px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin-left: 20%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+#banner {
+    margin-top: 20px;
+}
+
+#formulario {
+    background: #ccc;
+    border: 2px solid black;
+    margin-top: 50px;
+    text-align: center;
+}
